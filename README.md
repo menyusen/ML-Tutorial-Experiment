@@ -7,7 +7,7 @@
 2、spam_filtering：利用Euron-spam语料库及scikit-learn实现垃圾邮件分类过滤。
 
       数据来源：Euron-spam 语料库（http://www.aueb.gr/users/ion/data/enron-spam) 的预处理数据，在6个目录中包含33716封邮件，其中包含「ham」和「spam」两个文件夹(删除所有Summary.txt)，非垃圾邮件和垃圾邮件的总数分别为 16545 和 17171。
-      通过以下步骤构建此应用程序：
+      通过以下步骤构建模型：
       1. 文本数据准备
       2. 词典创建
       3. 特征提取
