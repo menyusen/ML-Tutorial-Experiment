@@ -6,13 +6,14 @@
   
 2、spam_filtering：利用Euron-spam语料库及scikit-learn实现垃圾邮件分类过滤。
 
-      数据来源：Euron-spam 语料库（http://www.aueb.gr/users/ion/data/enron-spam) 的预处理数据，在6个目录中包含33716封邮件，其中包含「ham」和「spam」两个文件夹，非垃圾邮件和垃圾邮件的总数分别为 16545 和 17171。
+      数据来源：Euron-spam 语料库（http://www.aueb.gr/users/ion/data/enron-spam) 的预处理数据，在6个目录中包含33716封邮件，其中包含「ham」和「spam」两个文件夹(删除所有Summary.txt)，非垃圾邮件和垃圾邮件的总数分别为 16545 和 17171。
       通过以下步骤构建此应用程序：
-      1. 准备文本数据
-      2. 创建词典
-      3. 特征提取过程
+      1. 文本数据准备
+      2. 词典创建
+      3. 特征提取
       4. 模型训练
       5. 测试
       利用scikit-learn的支持向量机(SVM)和多项式朴素贝叶斯(MultinomialNB)进行模型的训练，以7:3的比例分成训练集和测试集，从训练结果看，支持向量机略优于朴素贝叶斯分类器。
       SVM precision: 97.47%, recall: 98.25%
       MultinomialNB precision: 96.72%, recall: 97.80%
+      参考链接：http://www.kdnuggets.com/2017/03/email-spam-filtering-an-implementation-with-python-and-scikit-learn.html
