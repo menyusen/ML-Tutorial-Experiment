@@ -1,10 +1,10 @@
 # ML-Tutorial-Experiment
 
-## 1、mnist_sklearn：利用mnist数据集进行scikit_learn实践。
+## 1、mnist_sklearn：利用mnist数据集进行scikit_learn实践
 
   在mnist数据集上，对'NB'、'KNN'、'LR'、'RF'、'DT'、'SVM'、'GBDT'算法进行了测试，在这个数据集中，由于数据分布的团簇性较好为，因此KNN的效果不错，准确率96.64%，GBDT(96.17%)是个非常不错的算法，在kaggle等数据竞赛中应用较多，且效果较好，SVM(94.35%)也具有不错的效果，但计算量较大，训练时间较长。
   
-## 2、spam_filtering：利用Euron-spam语料库及scikit-learn实现垃圾邮件分类过滤。
+## 2、spam_filtering：利用Euron-spam语料库及scikit-learn实现垃圾邮件分类过滤
 
   数据来源：Euron-spam 语料库（http://www.aueb.gr/users/ion/data/enron-spam) 的预处理数据，在6个目录中包含33716封邮件，其中包含「ham」和「spam」两个文件夹(删除所有Summary.txt)，非垃圾邮件和垃圾邮件的总数分别为 16545 和 17171。
 
